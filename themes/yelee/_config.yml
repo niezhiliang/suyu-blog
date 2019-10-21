@@ -268,8 +268,8 @@ baidu_tongji: //hm.baidu.com/hm.js?a045dc1e58b40adf4cfd812217a0e8b5
 # http://ibruce.info/2015/04/04/busuanzi/
 visit_counter:
   on: true
-  site_visit: true
-  page_visit: true
+  site_visit: 本站到访数
+  page_visit: 本页阅读量
 
 # GitHub Repo Widget
 # https://github.com/hustcc/GitHub-Repo-Widget.js
@@ -285,6 +285,12 @@ progressBar:
   on: true
   type: "minimal"  # Keep Quotes | 保留引号避免出错
   color: blue
+
+#文章字数统计与阅读时长
+post_wordcount:
+  item_text: true
+  wordcount: true
+  min2read: true
 
 CDN:
   jquery: //cdn.bootcss.com/jquery/2.2.4/jquery.min.js
