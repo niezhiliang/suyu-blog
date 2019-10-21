@@ -9,11 +9,19 @@ git commit -m 'm'
 git push
 
 
-#cd blog-temp
-#
-#scp *.md root@www.isuyu.cn:/
+cd blog-temp
 
-ssh root@www.isuyu.cn
+scp *.md root@www.isuyu.cn:/usr/local/suyu-blog/source/_posts
 
-cd /usr/local/
+git pull
+
+
+rm -f -r blog-temp
+
+
+echo 'puslish success...
+
+
+
+
 
