@@ -80,11 +80,6 @@
             shortname: config.disqus_shortname
           }) %>
       <% } %>
-      #下面这四行代码就是我加的代码
-      <%else if (theme.changyan.on) { %>
-        <%- partial('comments/changyan', {
-          }) %>
-    <% } %>
 <% } %>
 <%- partial('_partial/post-nav-button') %>
 <% if (!index) { %>

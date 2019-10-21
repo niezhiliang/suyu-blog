@@ -90,7 +90,7 @@ show_count: false
 ## Add comment count after article title
 
 disqus: 
-  on: true
+#  on: true
   shortname: 
   # https://help.disqus.com/customer/en/portal/articles/466208-what-s-a-shortname-
   # It is unnecessary to enable disqus here if 
@@ -109,7 +109,8 @@ youyan:
   # 是否开启友言评论，http://www.uyan.cc/index.php
   # id 中填写你的友言用户数字ID，注册后进入后台管理即可查看
   # 友言服务在 Web 环境下运行，普通本地环境无法查看，请部署后在线上测试。
-
+changyan:
+  on: true
 
 # >>> Style Customisation 样式自定义 <<<
 
