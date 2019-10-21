@@ -16,7 +16,9 @@ scp *.md root@www.isuyu.cn:/usr/local/suyu-blog/source/_posts
 git pull
 
 
-rm -f -r blog-temp
+cd blog-temp
+
+rm -f -r *.md
 
 
 echo 'puslish success...
