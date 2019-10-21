@@ -80,6 +80,10 @@
             shortname: config.disqus_shortname
           }) %>
     <% } %>
+    <%else if (theme.changyan.on) { %>
+            <%- partial('comments/changyan', {
+              }) %>
+        <% } %>
 <% } %>
 
 <%- partial('_partial/post-nav-button') %>
