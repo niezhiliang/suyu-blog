@@ -10,6 +10,7 @@ cd blog-temp
 
 mv *.md ../source/_posts
 
+sleep 2
 
 git status
 
