@@ -153,7 +153,7 @@ feign:
 
 ### 配置WebHooks得到自动属性配置
 其实git为我们提供了一个钩子，每次提交代码都可以去访问一个链接，通过这个钩子，我们就能达到修改完配置自动刷新配置的效果
-![webhooks](https://niezhiliang.coding.net/p/blog-imgs/d/blog-imgs/git/blob/master/webhooks.png)
+![webhooks](https://gitee.com/niezhiliang/blogimgs/blob/master/webhooks.png)
 
 
 
