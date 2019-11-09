@@ -2,7 +2,7 @@
 
 cd blog-temp
 
-scp *.md root@www.isuyu.cn:/usr/local/suyu-blog/source/_posts
+scp *.md root@www.isuyu.cn:/usr/local/ #suyu-blog/source/_posts
 
 git pull
 
@@ -12,11 +12,15 @@ mv *.md ../source/_posts
 
 sleep 2
 
+cd ..
+
 git status
 
 git add .
 
 git commit -m 'm'
+
+sleep 1
 
 git push
 
