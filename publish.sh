@@ -27,7 +27,7 @@ git push
 rm -f -r *.md
 
 
-echo 'puslish success...
+echo 'puslish success...'
 
 
 
