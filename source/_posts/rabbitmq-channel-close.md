@@ -1,14 +1,4 @@
----
-title:  spring-boot 集成rabbitmq Channel shutdown: channel error
-date: 2019.11.13
-tags: 
-  - Java 
-  - SpringBoot
-  - RabbitMQ
-  - 工作问题
 
-description: 集成rabbitmq Channel shutdown: channel error
----
 
 ### 异常信息
 
