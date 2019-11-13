@@ -1,4 +1,14 @@
-
+---
+title:  springboot 整合rabbitmq消费时Channel shutdown: channel error
+date: 2019.11.13
+tags: 
+  - SpringBoot
+  - Java 
+  - RabbitMQ
+  - 工作问题
+  
+description: 
+---
 
 ### 异常信息
 
