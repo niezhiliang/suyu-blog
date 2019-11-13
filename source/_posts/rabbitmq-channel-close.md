@@ -1,13 +1,11 @@
 ---
-title:  springboot 整合rabbitmq消费时Channel shutdown: channel error
-date: 2019.11.13
+title: 字符串通过fastjson转换对象带泛型的正常转换方法
+date: 2019.11.09
 tags: 
-  - SpringBoot
   - Java 
-  - RabbitMQ
+  - Fastjson
   - 工作问题
-  
-description: 
+description: 由于我们工作中数据返回一般都是返回json格式的，所以在json和对象之间经常转换来转换去的，今天就记录一下fastjson在字符串转换带泛型的对象
 ---
 
 ### 异常信息
