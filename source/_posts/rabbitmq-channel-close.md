@@ -1,5 +1,5 @@
 ---
-title:  spring-boot 集成rabbitmq Channel shutdown: channel error; protocol method: #method<channel.close>
+title:  spring-boot 集成rabbitmq Channel shutdown: channel error
 date: 2019.11.13
 tags: 
   - Java 
@@ -7,9 +7,8 @@ tags:
   - RabbitMQ
   - 工作问题
 
-description: 队列消费时报异常：Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - unknown delivery tag 1, class-id=60, method-id=80)但是却不影响正常消费
+description: 集成rabbitmq Channel shutdown: channel error
 ---
-
 
 ### 异常信息
 
