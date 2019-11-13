@@ -6,7 +6,7 @@ tags:
   - SpringBoot
   - RabbitMQ
   - 工作问题
-description: SpringBoot整合RabbitMQ队列消费异常 Channel shutdown: channel error; protocol method: #method<channel.close>
+description: SpringBoot整合RabbitMQ队列消费异常 
 ---
 
 ### 异常信息
