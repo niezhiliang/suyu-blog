@@ -19,6 +19,7 @@ d订单id：39f52873-37ca-49b1-9054-b71bf7cf26c8
 --------消费完成--------
 2019-11-13 14:07:18.438 ERROR 10702 --- [ 127.0.0.1:5672] o.s.a.r.c.CachingConnectionFactory       : Channel shutdown: channel error; protocol method: #method<channel.close>(reply-code=406, reply-text=PRECONDITION_FAILED - unknown delivery tag 1, class-id=60, method-id=80)
 ```
+<!-- more -->
 
 ### 代码
 这个就是今天在引入spring-boot-amqp的时候，测试消息投递和消费信息的时候报了上面这个异常，下面贴出rabbitmq中信息投递端和消费端的代码
