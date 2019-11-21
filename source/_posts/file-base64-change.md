@@ -25,7 +25,7 @@ Files.write(Paths.get("../data/1.jpg"), Base64.getDecoder().decode(base64),Stand
 ### File转InputStream
 
 ```java
-InputStream in = new InputStream(new FileInputStream(File));
+InputStream in = new FileInputStream(File);
 ```
 
 ### InputStream转File
