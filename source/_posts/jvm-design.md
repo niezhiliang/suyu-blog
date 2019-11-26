@@ -5,7 +5,7 @@ tags:
   - Java 
   - JVM
   
-description: 
+description: 虚拟机内存机构，以及各个内存区域的作用
 ---
 
 ![内存结构图](https://suyu-img.oss-cn-shenzhen.aliyuncs.com/%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%86%85%E5%AD%98%E6%9C%BA%E6%9E%84.png)
