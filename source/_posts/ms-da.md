@@ -1,3 +1,12 @@
+---
+title:  面试题带答案
+date: 2019.12.03
+tags: 
+  - Java
+  - JVM
+description: 常遇到的面试题带答案
+---
+
 ##### 1. String类能被继承吗，为什么
 
 不能，因为String是final关键字修饰的类
