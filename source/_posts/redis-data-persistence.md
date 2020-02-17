@@ -160,7 +160,7 @@ appendfsync no  # 从不同步。高效但是数据不会被持久化。
 ```
 redis-cli config set appendonly yes
 
-redis-cli config set save ""
+redis-cli config set save "" 
 ```
 需要注意的一个地方：需要在`redis.conf`文件中将AOF功能打开，否则服务器重启，该命令
 不会被记录到aof日志文件中，程序就还会按照原来的配置启动服务器。
